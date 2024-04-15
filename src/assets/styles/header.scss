@@ -1,0 +1,128 @@
+.header {
+  background: linear-gradient(132.05deg, #428E5F -17.38%, #112120 78.40%), #204434;
+  min-height: 920px;
+  overflow: hidden;
+  position: relative;
+
+  &__exploration-btn {
+    background: rgb(255 255 255 / 25%) !important;
+    font-weight: 500 !important;
+    border-radius: 15px !important;
+    font-size: 18px;
+    padding: 11px 30px;
+    margin-bottom: 10px;
+  }
+
+  &__exploration-title {
+    font-family: "Poppins", sans-serif;
+    color: $primary-text-color;
+    font-size: 55px;
+    font-weight: 400;
+    max-width: 592px;
+    margin-bottom: 30px;
+  }
+
+  &__exploration-description {
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: $primary-text-color;
+    opacity: 50%;
+    max-width: 520px;
+    margin-bottom: 68px;
+  }
+
+  &__explore-now-btn {
+    padding: 26px 48px;
+    font-size: 25px
+  }
+
+  &__bottom {
+    width: 100%;
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+  }
+
+  &__background-decor {
+    pointer-events: none;
+    position: absolute;
+    top: -60px;
+    right: -40px;
+  }
+}
+
+.nav {
+  display: flex;
+  padding: 44px 0;
+  align-items: center;
+  margin-bottom: 94px;
+
+  &__logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: $primary-text-color;
+    margin-right: 262px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 80px;
+    margin-right: 238px;
+  }
+
+  &__list-item {
+    position: relative;
+  }
+
+  &__list-link {
+    font-size: 15px;
+    font-weight: 500;
+    color: $primary-text-color;
+  }
+}
+
+.active::after {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 4px;
+  background-color: $active-link-color;
+  border-radius: 4px;
+  bottom: 0;
+  left: 0;
+}
+
+.nav__buttons {
+  display: flex;
+  align-items: center;
+}
+
+.sign-up-btn {
+  font-family: "Poppins", sans-serif;
+  margin-right: 25px;
+}
+
+.login-btn {
+  font-family: "Poppins", sans-serif;
+  padding: 13px 44px;
+  background: linear-gradient(to right, #FF7B4E, #FF584E);
+  border-radius: 100px;
+}
+
+.exploration {
+  display: flex;
+  &__image-wrapper {
+    flex: 1;
+    position: relative;
+    height: 100%;
+    width: 100%;
+  }
+
+  &__image {
+    pointer-events: none;
+    position: absolute;
+    top: -230px;
+    right: -100px;
+  }
+}

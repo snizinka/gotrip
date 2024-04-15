@@ -7,9 +7,5 @@ import { RouterView } from 'vue-router'
 </template>
 
 <style lang="scss">
-$redColor: red;
-
-body {
-  background-color: $redColor;
-}
+@import "assets/styles/main";
 </style>
