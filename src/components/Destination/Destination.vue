@@ -1,5 +1,5 @@
 <template>
-<section class="destination">
+<section class="destination destination__wrapper">
   <div class="container destination__container">
     <div class="destination__content">
       <h3 class="destination__subtitle subtitle">Choice Of</h3>
