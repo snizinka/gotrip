@@ -7,7 +7,7 @@
         Beauty Of Halmahera
         With Us
       </h1>
-      <h2 class="header__exploration-description">explore the beauty of god's earth in a beautiful forest and have fun</h2>
+      <h4 class="header__exploration-description">explore the beauty of god's earth in a beautiful forest and have fun</h4>
       <ActionButton class="header__explore-now-btn">Explore Now</ActionButton>
     </div>
     <div class="exploration__image-wrapper">

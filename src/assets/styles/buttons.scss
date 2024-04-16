@@ -1,7 +1,7 @@
 .action-btn {
-  background: linear-gradient(to right, #FF7B4E, #FF584E);
+  background: $primary-button-background-color;
   border-radius: 27px;
-  color: $primary-text-color;
+  color: $primary-button-text-color;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
