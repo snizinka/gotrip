@@ -1,5 +1,5 @@
 <template>
-  <section class="feedback">
+  <section class="feedback feedback__wrapper">
    <div class="container feedback__container">
      <div class="feedback__preview-wrapper">
        <img src="@/assets/images/feedback/customer_block.png" alt="Feedback" class="feedback__preview-image">

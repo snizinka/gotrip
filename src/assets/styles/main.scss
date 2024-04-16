@@ -4,7 +4,7 @@
 $container-max-width: 1260px;
 $primary-text-color: #FFFFFF;
 $secondary-text-color: #0F1F1C;
-$primary-background-color: #E5E5E5;
+$primary-background-color: #F6F6F6;
 $primary-button-background-color: linear-gradient(to right, #FF7B4E, #FF584E);
 $active-link-color: #C4C4C4;
 $primary-button-text-color: #FEFEFE;
@@ -17,4 +17,8 @@ body {
   max-width: $container-max-width;
   padding: 0 10px;
   margin: 0 auto;
+}
+
+.go-trip-main {
+  background: $primary-background-color;
 }

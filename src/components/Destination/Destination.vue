@@ -5,7 +5,7 @@
       <h3 class="destination__subtitle subtitle">Choice Of</h3>
       <h2 class="destination__title title">Destinations</h2>
       <h4 class="destination__description description">explore the beauty of god's earth in a beautiful forest and have fun</h4>
-      <ActionButton class="destination__btn">Explore Now</ActionButton>
+      <ActionButton class="action-btn--medium">Explore Now</ActionButton>
     </div>
     <div class="destination__slider-wrapper destination-slider">
       <Swiper

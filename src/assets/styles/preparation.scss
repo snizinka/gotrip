@@ -1,0 +1,41 @@
+.preparation {
+  &__container {
+    position: relative;
+    padding: 115px 0;
+    width: 100%;
+    border-radius: 60px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: 45px !important;
+    max-width: 519px;
+    font-weight: 500 !important;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  &__subtitle {
+    font-size: 30px !important;
+    text-align: center;
+    max-width: 715px;
+    margin-bottom: 60px;
+  }
+
+  &__bulb {
+    position: absolute;
+  }
+
+  &__bulb--right-top {
+    right: 80px;
+    top: 74px;
+  }
+
+  &__bulb--left-bottom {
+    left: 80px;
+    bottom: 74px;
+  }
+}

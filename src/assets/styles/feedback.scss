@@ -1,6 +1,10 @@
 $userProfileImageDimentions: 134px;
 
 .feedback {
+  &__wrapper {
+    margin-bottom: 233px;
+  }
+
   &__container {
     display: flex;
   }
