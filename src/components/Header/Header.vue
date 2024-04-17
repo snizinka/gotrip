@@ -1,7 +1,10 @@
 <template>
   <header class="header header__wrapper">
     <div class="container">
-      <Nav />
+      <div class="header__top">
+        <a href="#" class="header__logo logo">GoTrip</a>
+        <Nav class="header__nav-wrapper" />
+      </div>
       <Content />
     </div>
     <BottomPart />

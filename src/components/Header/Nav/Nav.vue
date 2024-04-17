@@ -1,6 +1,5 @@
 <template>
   <nav class="nav">
-    <a href="#" class="nav__logo">GoTrip</a>
     <ul class="nav__list">
       <NavListItem class="active">Home</NavListItem>
       <NavListItem>Services</NavListItem>
@@ -9,7 +8,7 @@
     </ul>
     <ul class="nav__buttons">
       <li>
-        <button class="nav__list-link sign-up-btn">Sign up</button>
+        <button class="nav__list-link nav__list-sign-up-btn sign-up-btn">Sign up</button>
       </li>
       <li>
         <LoginButton />

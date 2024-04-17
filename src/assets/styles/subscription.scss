@@ -1,0 +1,41 @@
+.subscription {
+  &__container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  &__title {
+    max-width: 494px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+}
+
+.subscription-form {
+  &__wrapper {
+    margin-bottom: 105px;
+    padding: 12px 15px 12px 46px;
+    background: #FFFFFF;
+    border-radius: 35px;
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+  }
+
+  &__input {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: $secondary-text-color;
+    outline: none;
+    background: transparent;
+    padding-right: 20px;
+    margin-right: auto;
+  }
+
+  &__btn {
+    padding: 34px 86px;
+    font-size: 25px;
+  }
+}

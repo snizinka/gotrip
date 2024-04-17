@@ -8,6 +8,22 @@
     margin-bottom: 96px;
   }
 
+  &__top {
+    align-items: center;
+    display: flex;
+    margin-bottom: 94px;
+    padding: 44px 0;
+  }
+
+  &__nav-wrapper {
+    width: 100%;
+    color: #FFFFFF;
+  }
+
+  &__logo {
+    margin-right: auto;
+  }
+
   &__exploration-btn {
     background: rgb(255 255 255 / 25%) !important;
     font-weight: 500 !important;
@@ -54,35 +70,44 @@
     top: -60px;
     right: -40px;
   }
+
+  &__text-content {
+    position: relative;
+    z-index: 10;
+  }
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: $primary-text-color;
+  display: inline;
+  max-width: 262px;
+  width: 100%;
 }
 
 .nav {
   display: flex;
-  padding: 44px 0;
   align-items: center;
-  margin-bottom: 94px;
-
-  &__logo {
-    font-size: 20px;
-    font-weight: bold;
-    color: $primary-text-color;
-    margin-right: 262px;
-  }
 
   &__list {
     display: flex;
     gap: 80px;
-    margin-right: 238px;
+    margin-right: auto;
   }
 
   &__list-item {
     position: relative;
   }
 
+  &__list-sign-up-btn {
+    margin-right: 25px;
+  }
+
   &__list-link {
     font-size: 15px;
     font-weight: 500;
-    color: $primary-text-color;
+    color: inherit;
   }
 }
 
@@ -103,8 +128,8 @@
 }
 
 .sign-up-btn {
+  text-wrap: nowrap;
   font-family: "Poppins", sans-serif;
-  margin-right: 25px;
 }
 
 .login-btn {
@@ -112,6 +137,7 @@
   padding: 13px 44px;
   background: linear-gradient(to right, #FF7B4E, #FF584E);
   border-radius: 100px;
+  color: #FFFFFF;
 }
 
 .exploration {
@@ -128,5 +154,11 @@
     position: absolute;
     top: -230px;
     right: -100px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .nav {
+    display: none;
   }
 }

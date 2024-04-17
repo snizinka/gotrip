@@ -1,6 +1,6 @@
 <template>
   <div class="header__content exploration">
-    <div>
+    <div class="header__text-content">
       <ActionButton class="header__exploration-btn">explore the world</ActionButton>
       <h1 class="header__exploration-title">
         Explore The Natural

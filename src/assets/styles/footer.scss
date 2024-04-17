@@ -1,0 +1,17 @@
+.footer {
+  &__wrapper {
+    align-items: center;
+    display: flex;
+    padding: 44px 0;
+  }
+
+  &__logo {
+    color: #FF7C4E !important;
+    margin-right: auto;
+  }
+
+  &__nav-wrapper {
+    width: 100%;
+    color: $secondary-text-color !important;
+  }
+}

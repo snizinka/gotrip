@@ -27,7 +27,7 @@
 .destination-slider {
   width: 100%;
   flex-shrink: 0;
-  max-width: calc(100vw - (((100vw - 1260px)/2) + 455px + 40px));
+  max-width: calc(100vw - (((100vw - 100%)/2) + 455px + 30px));
 
   &__slide {
     width: auto !important;

@@ -1,7 +1,11 @@
 .preparation {
+  &__wrapper {
+    margin-bottom: 135px;
+  }
+
   &__container {
     position: relative;
-    padding: 115px 0;
+    padding: 115px 10px !important;
     width: 100%;
     border-radius: 60px;
     background: #FFFFFF;
