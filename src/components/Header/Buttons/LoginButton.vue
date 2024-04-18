@@ -1,3 +1,3 @@
 <template>
-  <button class="nav__list-link login-btn">Login</button>
+  <button class="nav-wrapper__list-link login-btn">Login</button>
 </template>

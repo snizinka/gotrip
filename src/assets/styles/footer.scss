@@ -1,11 +1,5 @@
 .footer {
-  &__wrapper {
-    align-items: center;
-    display: flex;
-    padding: 44px 0;
-  }
-
-  &__logo {
+  &__nav-wrapper .logo {
     color: #FF7C4E !important;
     margin-right: auto;
   }

@@ -1,6 +1,6 @@
 <template>
-  <li class="nav__list-item">
-    <a class="nav__list-link" href="#">
+  <li class="nav-wrapper__list-item">
+    <a class="nav-wrapper__list-link" href="#">
       <slot />
     </a>
   </li>

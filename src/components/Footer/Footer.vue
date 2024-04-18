@@ -1,10 +1,7 @@
 <template>
   <footer class="footer">
     <div class="container">
-      <div class="footer__wrapper">
-        <a href="#" class="footer__logo logo">GoTrip</a>
-        <Nav class="footer__nav-wrapper" />
-      </div>
+      <Nav class="footer__nav-wrapper" />
     </div>
   </footer>
 </template>

@@ -39,3 +39,50 @@
     font-size: 25px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .subscription {
+    &__title {
+      font-size: 45px !important;
+      margin-bottom: 30px
+    }
+  }
+
+  .subscription-form {
+    &__wrapper {
+      padding: 10px 10px 10px 20px;
+    }
+
+    &__input {
+      font-size: 19px;
+    }
+
+    &__btn {
+      padding: 24px 66px;
+      font-size: 19px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .subscription {
+    &__title {
+      font-size: 35px !important;
+    }
+  }
+
+  .subscription-form {
+    &__wrapper {
+      padding: 6px 6px 6px 16px;
+    }
+
+    &__input {
+      font-size: 15px;
+    }
+
+    &__btn {
+      padding: 18px 50px;
+      font-size: 15px;
+    }
+  }
+}
