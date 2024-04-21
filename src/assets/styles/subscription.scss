@@ -86,3 +86,44 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .subscription {
+    &__title {
+      font-size: 28px !important;
+      margin-bottom: 20px;
+    }
+  }
+
+  .subscription-form {
+    &__wrapper {
+      margin-bottom: 50px;
+      max-width: 100%;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: space-between;
+    }
+
+    &__input {
+      font-size: 13px;
+      padding: 0;
+    }
+
+    &__btn {
+      padding: 14px 35px;
+      font-size: 13px;
+    }
+  }
+}
+
+@media screen and (max-width: 392px) {
+  .subscription-form {
+    &__input {
+      margin: unset;
+    }
+
+    &__wrapper {
+      justify-content: center;
+    }
+  }
+}
