@@ -1,8 +1,45 @@
 @import "reset";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-$containerMaxWidth: 1200;
+$container-max-width: 1260px;
+$primary-text-color: #FFFFFF;
+$secondary-text-color: #0F1F1C;
+$primary-background-color: #F6F6F6;
+$primary-button-background-color: linear-gradient(to right, #FF7B4E, #FF584E);
+$primary-button-background-color-hover: linear-gradient(to right, #cb5d32, #ec4e45);
+$active-link-color: #C4C4C4;
+$primary-button-text-color: #FEFEFE;
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: $container-max-width;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+.go-trip-main {
+  background: $primary-background-color;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    max-width: 960px;
+    padding: 0 28px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    max-width: 700px;
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0 15px;
+  }
 }

@@ -1,0 +1,237 @@
+$user-profile-image-dimensions: 134px;
+
+.feedback {
+  &__wrapper {
+    margin-bottom: 233px;
+  }
+
+  &__container {
+    display: flex;
+  }
+
+  &__preview-wrapper {
+    height: 537px;
+    margin-right: 68px;
+  }
+
+  &__preview-image {
+    height: 100%;
+    border-radius: 50px;
+  }
+
+  &__title {
+    font-size: 45px !important;
+    max-width: 565px;
+    margin-bottom: 35px;
+  }
+
+  &__article-wrapper {
+    display: flex;
+    margin-bottom: 60px;
+  }
+
+  &__customer-image-wrapper {
+    height: $user-profile-image-dimensions;
+    width: $user-profile-image-dimensions;
+    border-radius: 100%;
+    overflow: hidden;
+    background: $primary-button-background-color;
+    margin-right: 33px;
+  }
+
+  &__customer-name {
+    font-size: 33px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: $secondary-text-color;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 22px !important;
+    max-width: 490px;
+    margin-bottom: 25px;
+  }
+
+  &__rating {
+    width: 100%;
+    transform: rotate(180deg);
+    display: flex;
+    justify-content: end;
+  }
+
+  &__rating-img {
+    transform: rotate(180deg);
+  }
+
+  &__rating-img:not(:first-child) {
+    height: 100%;
+    margin-left: 20px;
+  }
+
+  &__rating-img:hover,
+  &__rating-img:hover + &__rating-img,
+  &__rating-img:hover + &__rating-img + &__rating-img,
+  &__rating-img:hover + &__rating-img + &__rating-img + &__rating-img,
+  &__rating-img:hover + &__rating-img + &__rating-img + &__rating-img + &__rating-img {
+    filter: invert(0%) sepia(88%) saturate(1077%) hue-rotate(328deg) brightness(106%) contrast(101%);
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  $user-profile-image-dimensions: 110px;
+
+  .feedback {
+    &__wrapper {
+      margin-bottom: 150px;
+    }
+
+    &__preview-wrapper {
+      height: 400px;
+      margin-right: 20px;
+    }
+
+    &__article-wrapper {
+      margin-bottom: 20px;
+    }
+
+    &__title {
+      font-size: 35px !important;
+      max-width: 391px;
+      margin-bottom: 20px;
+      line-height: 1.2;
+    }
+
+    &__customer-image-wrapper {
+      height: $user-profile-image-dimensions;
+      width: $user-profile-image-dimensions;
+      margin-right: 23px;
+    }
+
+    &__customer-name {
+      font-size: 28px;
+      margin-bottom: 5px;
+    }
+
+    &__customer-location {
+      font-size: 18px;
+    }
+
+    &__text {
+      font-size: 18px !important;
+      max-width: 390px;
+      margin-bottom: 15px;
+    }
+
+    &__rating {
+      height: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  $user-profile-image-dimensions: 80px;
+
+  .feedback {
+    &__preview-wrapper {
+      height: 320px;
+    }
+
+    &__wrapper {
+      margin-bottom: 100px;
+    }
+
+    &__title {
+      font-size: 27px !important;
+      max-width: 391px;
+      margin-bottom: 10px;
+      line-height: 1.2;
+    }
+
+    &__customer-image-wrapper {
+      height: $user-profile-image-dimensions;
+      width: $user-profile-image-dimensions;
+      margin-right: 19px;
+    }
+
+    &__customer-name {
+      font-size: 22px;
+      margin-bottom: 0;
+    }
+
+    &__customer-location {
+      font-size: 16px !important;
+    }
+
+    &__text {
+      font-size: 15px !important;
+      max-width: 390px;
+      margin-bottom: 15px;
+    }
+
+    &__rating {
+      height: 40px;
+    }
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .feedback {
+    &__container {
+      flex-direction: column-reverse;
+      gap: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  $user-profile-image-dimensions: 60px;
+
+  .feedback {
+    &__wrapper {
+      margin-bottom: 50px;
+    }
+
+    &__title {
+      font-size: 28px !important;
+      max-width: 75%;
+    }
+
+    &__article-wrapper {
+      margin-bottom: 10px;
+    }
+
+    &__customer-name {
+      font-size: 19px;
+    }
+
+    &__customer-location {
+      font-size: 14px !important;
+    }
+
+    &__customer-image-wrapper {
+      height: $user-profile-image-dimensions;
+      width: $user-profile-image-dimensions;
+    }
+
+    &__text {
+      font-size: 13px !important;
+      max-width: 80% !important;
+      margin-bottom: 10px;
+    }
+
+    &__rating {
+      height: 30px;
+    }
+
+    &__preview-wrapper {
+      height: 245px;
+    }
+
+    &__rating-img:not(:first-child) {
+      height: 100%;
+      margin-left: 10px;
+    }
+  }
+}

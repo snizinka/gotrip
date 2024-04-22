@@ -13,3 +13,16 @@
 a, a:link, a:visited {
   text-decoration: none;
 }
+
+a:hover {
+  cursor: pointer;
+}
+
+button {
+  background: none;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
