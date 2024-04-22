@@ -18,7 +18,7 @@
             <button class="nav-wrapper__list-link nav-wrapper__list-sign-up-btn sign-up-btn">Sign up</button>
           </li>
           <li>
-            <LoginButton />
+            <ActionButton class="nav-wrapper__list-link nav-wrapper__log-in-btn">Log in</ActionButton>
           </li>
         </ul>
       </nav>
@@ -26,14 +26,15 @@
   </div>
 </template>
 <script setup lang="ts">
-import LoginButton from "@/components/Header/Buttons/LoginButton.vue";
 import NavListItem from "@/components/Header/Nav/NavListItem.vue";
 import BurgerButton from "@/components/Buttons/BurgerButton.vue";
 import {ref} from "vue";
+import ActionButton from "@/components/Buttons/ActionButton.vue";
 
 const isOpen = ref(false)
 
 function openStateToggle (isOpenState) {
   isOpen.value = isOpenState
+  document.body.style.overflow = isOpenState ? 'hidden' : 'auto'
 }
 </script>

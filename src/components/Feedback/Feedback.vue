@@ -18,7 +18,11 @@
          </div>
          <p class="feedback__text description">Very satisfying service makes it comfortable, a beautiful place in the world.</p>
          <div class="feedback__rating">
-           <img src="@/assets/images/feedback/rating_stars.svg" alt="Rating" class="feedback__rating-img">
+           <img src="@/assets/images/feedback/rating_star.svg" alt="Rating" class="feedback__rating-img">
+           <img src="@/assets/images/feedback/rating_star.svg" alt="Rating" class="feedback__rating-img">
+           <img src="@/assets/images/feedback/rating_star.svg" alt="Rating" class="feedback__rating-img">
+           <img src="@/assets/images/feedback/rating_star.svg" alt="Rating" class="feedback__rating-img">
+           <img src="@/assets/images/feedback/rating_star.svg" alt="Rating" class="feedback__rating-img">
          </div>
        </article>
      </div>

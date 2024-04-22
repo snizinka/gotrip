@@ -23,6 +23,10 @@
     margin-bottom: 10px;
   }
 
+  &__exploration-btn:hover {
+    background: rgb(255 255 255 / 51%) !important;
+  }
+
   &__exploration-title {
     font-family: "Poppins", sans-serif;
     color: $primary-text-color;
@@ -91,6 +95,25 @@
     position: relative;
   }
 
+  &__list-item ::after {
+    transition: .25s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 4px;
+    background-color: $active-link-color;
+    border-radius: 4px;
+    bottom: 0;
+    left: 0;
+  }
+
+  &__list-item:hover ::after {
+    width: 75%;
+  }
+
   &__list-sign-up-btn {
     margin-right: 25px;
   }
@@ -105,12 +128,20 @@
     display: flex;
     align-items: center;
   }
+
+  &__log-in-btn {
+    font-family: "Poppins", sans-serif;
+    padding: 13px 44px;
+    background: linear-gradient(to right, #FF7B4E, #FF584E);
+    border-radius: 100px;
+    color: #FFFFFF;
+  }
 }
 
 .active::after {
   content: '';
   position: absolute;
-  width: 35px;
+  width: 75%;
   height: 4px;
   background-color: $active-link-color;
   border-radius: 4px;
@@ -121,14 +152,6 @@
 .sign-up-btn {
   text-wrap: nowrap;
   font-family: "Poppins", sans-serif;
-}
-
-.login-btn {
-  font-family: "Poppins", sans-serif;
-  padding: 13px 44px;
-  background: linear-gradient(to right, #FF7B4E, #FF584E);
-  border-radius: 100px;
-  color: #FFFFFF;
 }
 
 .exploration {

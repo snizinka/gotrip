@@ -11,14 +11,14 @@
       <Swiper
           class="destination-slider__wrapper"
           :modules="modules"
-          :slides-per-view="3"
+          :slidesPerView="3"
           :centeredSlides="true"
           :grabCursor="true"
-          :space-between="30"
+          :spaceBetween="30"
           :pagination="{
             clickable: true
           }"
-          :initial-slide="1"
+          :initialSlide="1"
           :navigation="{
             enabled: true,
           }"

@@ -55,11 +55,27 @@ $user-profile-image-dimensions: 134px;
 
   &__rating {
     width: 100%;
-    max-width: 327px;
+    transform: rotate(180deg);
+    display: flex;
+    justify-content: end;
   }
 
   &__rating-img {
+    transform: rotate(180deg);
+  }
+
+  &__rating-img:not(:first-child) {
     height: 100%;
+    margin-left: 20px;
+  }
+
+  &__rating-img:hover,
+  &__rating-img:hover + &__rating-img,
+  &__rating-img:hover + &__rating-img + &__rating-img,
+  &__rating-img:hover + &__rating-img + &__rating-img + &__rating-img,
+  &__rating-img:hover + &__rating-img + &__rating-img + &__rating-img + &__rating-img {
+    filter: invert(0%) sepia(88%) saturate(1077%) hue-rotate(328deg) brightness(106%) contrast(101%);
+    cursor: pointer;
   }
 }
 
@@ -211,6 +227,11 @@ $user-profile-image-dimensions: 134px;
 
     &__preview-wrapper {
       height: 245px;
+    }
+
+    &__rating-img:not(:first-child) {
+      height: 100%;
+      margin-left: 10px;
     }
   }
 }

@@ -20,6 +20,8 @@
     font-weight: 500 !important;
     text-align: center;
     margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
   }
 
   &__subtitle {
@@ -27,6 +29,11 @@
     text-align: center;
     max-width: 715px;
     margin-bottom: 60px;
+  }
+
+  &__btn {
+    position: relative;
+    z-index: 1;
   }
 
   &__bulb {
@@ -41,5 +48,41 @@
   &__bulb--left-bottom {
     left: 80px;
     bottom: 74px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .preparation {
+    &__wrapper {
+      margin-bottom: 90px;
+    }
+
+    &__container {
+      padding: 80px 5px !important;
+    }
+
+    &__title {
+      font-size: 32px !important;
+      margin-bottom: 20px;
+    }
+
+    &__subtitle {
+      font-size: 23px !important;
+      margin-bottom: 30px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .preparation {
+      &__title {
+        font-size: 28px !important;
+        margin-bottom: 10px;
+      }
+
+      &__subtitle {
+        font-size: 19px !important;
+        margin-bottom: 30px;
+      }
+    }
   }
 }
