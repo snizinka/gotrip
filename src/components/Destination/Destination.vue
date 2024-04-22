@@ -22,7 +22,6 @@
           :navigation="{
             enabled: true,
           }"
-          @slideChange="onSlideChange"
       >
         <SwiperSlide class="destination-slider__slide" v-for="destinationSlide in destinationSlides">
           <DestinationSlide  :image-path="destinationSlide" />
@@ -47,10 +46,6 @@ const destinationSlides = ['../../assets/images/destinations/destination_1.png',
 const modules = [
   Navigation, Pagination, Scrollbar, A11y
 ]
-
-function onSlideChange (): void {
-  console.log('slide')
-}
 </script>
 
 <style lang="scss">
